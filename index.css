@@ -1,4 +1,39 @@
 
-body{
-    color: rgb(3, 26, 3);
+    body{
+        background-color: rgb(3, 26, 3);
+    }
+
+    h2{
+        color: yellow;
+    }
+
+    .container{
+        height: 200vh;
+        width: 1000px;
+        margin: 0 auto;
+        position: sticky;
+        top: 0;
+        background-color: teal;
+        flex-direction: column;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-content: space-around;
+        
 }
+
+    .n1{
+        color: orange;
+    }
+
+    .n2{
+        color: aqua;
+    }
+
+    .n3{
+        color: brown;
+    }
+
+    .n4{
+        color: cadetblue;
+    }
