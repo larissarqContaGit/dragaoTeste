@@ -2,7 +2,7 @@
     body{
         background-image: url(https://i.pinimg.com/originals/5c/94/db/5c94db91d82d90b07969b2e8574c77ba.jpg);
         position: relative;
-        height: 200px;
+        height: 180px;
         width: 1000px;
         
     }
@@ -14,21 +14,26 @@
     .container2{
         background-color: rgb(5, 24, 5);
         opacity: 0.5;
-        height: 220vh;
+        height: 180vh;
         width: 1300px;
         margin: 0;
-        margin-top: 0;
+        
         margin-left: 20px;
         margin-right: 20px;
         position: sticky;
         top: 0;
     }
 
+
+
     .container{
-        height: 200vh;
-        width: 1000px;
+        height: 150vh;
+        width: 1100px;
         margin: 0 auto;
-        margin-top: 15vh;
+        margin-top: 25vh;
+        margin-bottom: 5vh;
+        margin-left: 20vh;
+        margin-right: 30vh;
         position: absolute;
         z-index: 1;
         top: 0;
