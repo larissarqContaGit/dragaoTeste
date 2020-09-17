@@ -38,9 +38,9 @@
         margin-bottom: 0.2vh;
         margin-left: 20vh;
         margin-right: 30vh;
-        position: absolute;
+        position: sticky;
         z-index: 3;
-        top: 0;
+        top: 2px;
         background-color: black;
         flex-direction: column;
         display: flex;
