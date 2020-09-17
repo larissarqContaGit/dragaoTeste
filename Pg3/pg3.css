@@ -1,18 +1,11 @@
-
-    .fundo{
-        background-image: url(https://besthqwallpapers.com/img/original/32636/jakiro-4k-twin-headed-dragon-art-dragons.jpg);
-        background-size: 1400px 700px;
-        position: fixed;
-        height: 1200px;
-        width: 1500px;
-        z-index: 2;
-        top: 0;
-        
-        
-    }
-
-    h2{
-        color: yellow;
+.fundo{
+    background-image: url(https://besthqwallpapers.com/img/original/32636/jakiro-4k-twin-headed-dragon-art-dragons.jpg);
+    background-size: 1400px 700px;
+    position: fixed;
+    height: 1200px;
+    width: 1500px;
+    z-index: 2;
+    top: 0;
     }
 
     .container2{
@@ -46,21 +39,4 @@
         flex-wrap: wrap;
         justify-content: space-around;
         align-content: space-around;      
-    }
-
-
-    .n1{
-        color: orange;
-    }
-
-    .n2{
-        color: aqua;
-    }
-
-    .n3{
-        color: brown;
-    }
-
-    .n4{
-        color: cadetblue;
     }
