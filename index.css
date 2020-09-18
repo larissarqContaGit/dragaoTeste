@@ -18,12 +18,15 @@
     .container2{
         background-color: black;
         opacity: 0.5;
-        height: 100%;
-        width: 90%;
+        height: 180vh;
+        width: 1200px;
         margin-bottom: 0;
+        margin-left: 75px;
+        margin-right: 25px;
         z-index: 3;
         position: fixed;
         top: 0;
+        flex-direction: column;
     }
 
     .container{
@@ -50,14 +53,3 @@
         color: orange;
     }
 
-    .n2{
-        color: aqua;
-    }
-
-    .n3{
-        color: brown;
-    }
-
-    .n4{
-        color: cadetblue;
-    }

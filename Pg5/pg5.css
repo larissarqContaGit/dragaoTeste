@@ -19,20 +19,37 @@
         z-index: 3;
         position: fixed;
         top: 0;
-        display: table-cell;
+        flex-direction: column;
+        
+
+    }
+
+    .titulo{
+        color: preto;
+        font-size: 20px;
+        font-family: old 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        z-index: 4;
+        width: 600px;
+        height: 60px;
+        position: sticky;
+        top:60px;
+        margin-left: 260px;
+        margin-right: auto;
+        flex-direction: row;
+
     }
 
     .container{
-        height: 150vh;
-        width: 1100px;
+        height: 1000px;
+        width: 900px;
         margin: 0 auto;
-        margin-top: 20vh;
-        margin-bottom: 0.2vh;
-        margin-left: 20vh;
-        margin-right: 30vh;
+        margin-top: 50px;
+        margin-bottom: 0;
+        margin-left: 30vh;
+        margin-right: 40vh;
         position: sticky;
-        z-index: 4;
-        top: 0;
+        z-index: 5;
+        top: 0px;
         background-color: black;
         flex-direction: column;
         display: flex;
