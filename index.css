@@ -18,15 +18,12 @@
     .container2{
         background-color: black;
         opacity: 0.5;
-        height: 180vh;
-        width: 1200px;
+        height: 100%;
+        width: 90%;
         margin-bottom: 0;
-        margin-left: 75px;
-        margin-right: 25px;
         z-index: 3;
         position: fixed;
         top: 0;
-        display: table-cell;
     }
 
     .container{
