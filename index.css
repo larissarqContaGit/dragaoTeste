@@ -105,10 +105,13 @@
       font-family: Georgia;
     }
 
-
     figure{
       float: left;
       margin: 0px 10px 10px 15px;
+    }
+
+    .conteudo{
+      margin-top: 35px;
     }
 
     .btns{
@@ -139,6 +142,7 @@
         cursor: pointer;
         display:inline-block;
         text-decoration: none;
+        
       }
 
       a{
