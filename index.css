@@ -6,13 +6,26 @@
         height: 1200px;
         width: 1500px;
         z-index: 2;
-        top: 0;
-        
-        
+        top: 0;  
     }
 
     img{
         margin-top: 10px;
+    }
+
+    .titulo{
+      color: black;
+      font-size: 20px;
+      font-family: Georgia;
+      z-index: 4;
+      width: 900px;
+      height: 30px;
+      position: sticky;
+      top:60px;
+      margin-left: 260px;
+      margin-right: auto;
+      flex-direction: row;
+      z-index: 4;
     }
 
     h1{
@@ -23,7 +36,6 @@
     flex-direction: row;
     justify-content: space-around;
     align-content: space-around;      
-
     }
 
     p{
@@ -56,18 +68,20 @@
         margin-left: 10px;
         margin-right: 2px;
         margin-bottom: 2px;
+        width: 350px;
+        height: 200px;
     }
 
     .container{
         height: 150vh;
         width: 1100px;
         margin: 0 auto;
-        margin-top: 20vh;
+        margin-top: 15vh;
         margin-bottom: 0.2vh;
         margin-left: 20vh;
         margin-right: 30vh;
         position: sticky;
-        z-index: 4;
+        z-index: 5;
         top: 0;
         background-color: black;
         flex-direction: column;
@@ -77,6 +91,43 @@
         align-content: space-around;      
     }
 
+    .btns{
+      justify-content: flex-end;
+    }
+
+    .textoaolado{
+      flex-direction: row-reverse;
+    }
+
+    figcaption{
+      font-size: 12px;
+      margin-left: 80px;
+      font-family: Georgia;
+    }
+
+
+    figure{
+      float: left;
+      margin: 0px 10px 10px 15px;
+    }
+
+    .btns{
+      align-items: flex-end;
+    }
+
+    .espaco{
+      background-color: black;
+      width: 10px;
+      height: 100px;
+      margin-left: 60px;
+    }
+
+    .space{
+      background-color: black;
+      width: 10px;
+      height: 30px;
+      margin-left: 60px;
+    }
 
     .btn{
         font-family: arial;
@@ -89,28 +140,48 @@
         display:inline-block;
         text-decoration: none;
       }
+
+      a{
+        color: white;
+      }
     
       .btn-green{
         background:green;
         color:#fff;
         box-shadow:0 5px 0 #006000;
+        margin-left: 40px;
+        margin-right: 10px;
       }
     
       .btn-orange{
         background:orange;
         color:#fff;
         box-shadow:0 5px 0 #a16f03;
+        margin-left: 10px;
+        margin-right: 10px;
       }
     
       .btn-blue{
         background:rgb(4, 75, 230);
         color:#fff;
         box-shadow:0 5px 0 rgb(9, 16, 117);
+        margin-left: 10px;
+        margin-right: 10px;
       }
     
       .btn-clearblue{
         background:rgb(8, 160, 248);
         color:#fff;
         box-shadow:0 5px 0 rgb(9, 103, 139);
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+
+      .btn-red{
+        background:rgb(8, 160, 248);
+        color:#fff;
+        box-shadow:0 5px 0 rgb(9, 103, 139);
+        margin-left: 10px;
+        margin-right: 10px;
       }
       
