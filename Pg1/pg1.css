@@ -1,11 +1,11 @@
 .fundo{
-    background-image: url(https://besthqwallpapers.com/img/original/32636/jakiro-4k-twin-headed-dragon-art-dragons.jpg);
-    background-size: 1400px 700px;
-    position: fixed;
-    height: 1200px;
-    width: 1500px;
-    z-index: 2;
-    top: 0;
+        background-image: url(https://besthqwallpapers.com/img/original/32636/jakiro-4k-twin-headed-dragon-art-dragons.jpg);
+        background-size: 80% 60%;
+        position: fixed;
+        height: 185%;
+        width: 130%;
+        z-index: 2;
+        top: 0;  
     }
 
     .container2{
