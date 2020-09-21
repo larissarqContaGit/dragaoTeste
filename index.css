@@ -14,9 +14,9 @@
     }
 
     .titulo{
-      color: black;
+      color: rgb(212, 183, 14);
       font-size: 20px;
-      font-family: Georgia;
+      font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
       z-index: 4;
       width: 900px;
       height: 30px;
@@ -29,8 +29,8 @@
     }
 
     h1{
-    color: rgb(80, 79, 79);
-    font-family: 'MedievalSharp';
+    color: rgb(212, 183, 14);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-left: 20px;
     margin-right: 20px;
     flex-direction: row;
@@ -39,8 +39,10 @@
     }
 
     p{
-    font-family: 'MedievalSharp';
-    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: goldenrod;
+    font-size: inherit;
+    margin-top: 10px;
     margin-left: 20px;
     margin-right: 20px;
     flex-direction: row;
@@ -88,7 +90,8 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: flex-start;
-        align-content: space-around;      
+        align-content: space-around;
+        align-items: baseline;      
     }
 
     .btns{
