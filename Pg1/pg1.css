@@ -58,13 +58,6 @@
         align-items: baseline;      
       }
   
-      .espaco{
-        background-color: black;
-        width: 10px;
-        height: 80px;
-        margin-left: 60px;
-      }
-  
       h1{
         color: rgb(212, 183, 14);
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -73,6 +66,13 @@
         flex-direction: row;
         justify-content: space-around;
         align-content: space-around;      
+      }
+
+      .espaco1{
+        background-color: black;
+        width: 10px;
+        height: 80px;
+        margin-left: 60px;
       }
   
       p{
@@ -91,7 +91,7 @@
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         color: goldenrod;
         font-size: inherit;
-        margin-top: 60px;
+        margin-top: 80px;
         margin-left: 20px;
         margin-right: 20px;
         flex-direction: row;
@@ -106,8 +106,8 @@
         margin-left: 10px;
         margin-right: 2px;
         margin-bottom: 2px;
-        width: 350px;
-        height: 300px;
+        width: 250px;
+        height: 200px;
       }
   
       .btns{
