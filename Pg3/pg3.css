@@ -95,6 +95,18 @@
 
       }
 
+      figcaption{
+        font-size: 12px;
+        margin-right: px;
+        margin-left: 5px;
+        margin-top: 0.5px;
+      }    
+
+      figure{
+        float: right;
+        margin: 0px 10px 10px 15px;
+      }
+
       .espacop1p2{
         background-color: black;
         width: 10px;
@@ -113,19 +125,7 @@
       }
 
       .fig2{
-        float: right;
-      }
-
-      figcaption{
-        font-size: 12px;
-        margin-right: px;
-        margin-left: 5px;
-        margin-top: 0.5px;
-      }    
-
-      figure{
-        float: right;
-        margin: 0px 10px 10px 15px;
+        float: left;
       }
 
       #p1{
