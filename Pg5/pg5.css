@@ -113,11 +113,10 @@
       }
 
       .img2{
-        margin-left: 10px;
-        margin-right: 20px;
-        margin-bottom: 0px;
-        height: 350px;
-        width: 300px;
+        margin-left: 20px;
+        margin-right: 90px;
+        height: 250px;
+        width: 230px;
       }
 
       .fig2{
@@ -175,12 +174,19 @@
       a{
         color: white;
       }
+      .btn-green{
+        background: rgb(13, 194, 201);
+        color:#fff;
+        box-shadow:0 5px 0 rgb(39, 105, 107);
+        margin-left: 200px;
+        margin-right: 10px;
+      }
       
       .btn-orange{
         background:orange;
         color:#fff;
         box-shadow:0 5px 0 #a16f03;
-        margin-left: 250px;
+        margin-left: 10px;
         margin-right: 10px;
         }
       
@@ -199,12 +205,3 @@
         margin-left: 10px;
         margin-right: 10px;
       }
-  
-      .btn-red{
-        background:rgb(8, 160, 248);
-        color:#fff;
-        box-shadow:0 5px 0 rgb(9, 103, 139);
-        margin-left: 10px;
-        margin-right: 10px;
-        }
-        
