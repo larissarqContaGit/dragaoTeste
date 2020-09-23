@@ -27,13 +27,13 @@
         font-size: 120%;
         font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         z-index: 4;
-        width: 100%;
+        width: 80%;
         height: 10%;
         position: sticky;
         top: 10%;
         margin-left: 12%;
         margin-right: 20%;
-        margin-bottom: 8%;
+        margin-bottom: 0%;
         flex-direction: row;
         z-index: 4;
       }
@@ -59,27 +59,79 @@
       }
   
       h1{
-        color: rgb(212, 183, 14);
+        color: cyan;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin-top: 80px;
         margin-left: 20px;
         margin-right: 20px;
+        margin-bottom: 50px;
         flex-direction: row;
         justify-content: space-around;
         align-content: space-around;      
-      }
-
-      .espaco1{
-        background-color: black;
-        width: 10px;
-        height: 80px;
-        margin-left: 60px;
       }
   
       p{
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        color: goldenrod;
+        color: cadetblue;
         font-size: inherit;
-        margin-top: 30px;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 10px;
+        flex-direction: row;
+        justify-content: space-around;
+        align-content: space-around;    
+      }
+
+      img{
+        text-align: bottom;
+        border: 2px;
+        margin-top: 15px;
+        margin-left: 10px;
+        margin-right: 2px;
+        margin-bottom: 0px;
+        width: 330px;
+        height: 250px;
+      }
+
+      .espacop1p2{
+        background-color: black;
+        width: 10px;
+        height: 5px;
+        margin-left: 60px;
+      }
+
+      .img2{
+        border: 2px;
+        margin-top: 0px;
+        margin-left: 2px;
+        margin-right: 2px;
+        margin-bottom: 0px;
+        width: 350px;
+        height: 300px;
+      }
+
+      .fig2{
+        float: right;
+      }
+
+      figcaption{
+        font-size: 12px;
+        margin-right: px;
+        margin-left: 5px;
+        margin-top: 0.5px;
+      }    
+
+      figure{
+        float: left;
+        margin: 0px 10px 10px 15px;
+      }
+
+      #p1{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: cadetblue;
+        font-size: inherit;
+        margin-top: 25px;
         margin-left: 20px;
         margin-right: 20px;
         flex-direction: row;
@@ -87,68 +139,27 @@
         align-content: space-around;      
       }
 
-      #p1{
+      #p2{
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        color: goldenrod;
+        color: cadetblue;
         font-size: inherit;
-        margin-top: 80px;
+        margin-top: 25px;
         margin-left: 20px;
         margin-right: 20px;
         flex-direction: row;
         justify-content: space-around;
-        align-content: space-around;      
-      }
-  
-      img{
-        text-align: bottom;
-        border: 2px;
-        margin-top: 40px;
-        margin-left: 10px;
-        margin-right: 2px;
-        margin-bottom: 2px;
-        width: 250px;
-        height: 200px;
-      }
-  
-      .btns{
-        justify-content: flex-end;
-      }
-  
-      .textoaolado{
-        flex-direction: row-reverse;
-      }
-  
-      figcaption{
-        font-size: 12px;
-        margin-left: 80px;
-        font-family: Georgia;
-      }
-  
-      figure{
-        float: left;
-        margin: 0px 10px 10px 15px;
-      }
-  
-      .conteudo{
-        margin-top: 35px;
+        align-content: space-aroun
       }
   
       .btns{
         align-items: flex-end;
       }
-  
-      .space{
+
+      .espacoTextoBottons{
         background-color: black;
         width: 10px;
-        height: 100px;
+        height: 150px;
         margin-left: 60px;
-      }
-  
-      .espaco1{
-        background-color: black;
-        width: 10px;
-        height: 200px;
-        margin-left: 80px;
       }
   
       .btn{
@@ -166,15 +177,6 @@
   
       a{
         color: white;
-      }
-      
-      .btn-green{
-        background:green;
-        color:#fff;
-        box-shadow:0 5px 0 #006000;
-        margin-left: 40px;
-        margin-right: 10px;
-  
       }
       
       .btn-orange{

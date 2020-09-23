@@ -91,7 +91,7 @@
     img{
       text-align: bottom;
       border: 2px;
-      margin-top: 10px;
+      margin-top: 20px;
       margin-left: 10px;
       margin-right: 2px;
       margin-bottom: 2px;
@@ -99,9 +99,6 @@
       height: 200px;
     }
 
-    .btns{
-      justify-content: flex-end;
-    }
 
     .textoaolado{
       flex-direction: row-reverse;
@@ -136,11 +133,11 @@
     .espaco1{
       background-color: black;
       width: 10px;
-      height: 70px;
+      height: 100px;
       margin-left: 80px;
     }
 
-    .btn{
+      .btn{
       font-family: arial;
       font-size:14px;
       font-weight:700;
@@ -156,13 +153,13 @@
     a{
       color: white;
     }
-    
     .btn-green{
-      background:green;
+      background: rgb(13, 194, 201);
       color:#fff;
-      box-shadow:0 5px 0 #006000;
-      margin-left: 40px;
+      box-shadow:0 5px 0 rgb(39, 105, 107);
+      margin-left: 200px;
       margin-right: 10px;
+    
 
     }
     
