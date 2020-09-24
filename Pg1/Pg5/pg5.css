@@ -33,7 +33,7 @@
         top: 10%;
         margin-left: 12%;
         margin-right: 20%;
-        margin-bottom: 0%;
+        margin-bottom: 2%;
         flex-direction: row;
         z-index: 4;
       }
@@ -86,24 +86,22 @@
       img{
         text-align: bottom;
         border: 2px;
-        margin-top: 5px;
         margin-left: 10px;
-        margin-right: 50px;
+        margin-right: 10px;
         margin-bottom: 0px;
-        height: 230px;
-        width: 330px;
+        height: 240px;
+        width: 500px;
 
       }
 
       figcaption{
         font-size: 12px;
-        margin-right: px;
         margin-left: 5px;
         margin-top: 0.5px;
       }    
 
       figure{
-        float: right;
+        float: left;
         margin: 0px 10px 10px 15px;
       }
 
@@ -111,21 +109,18 @@
         background-color: black;
         width: 10px;
         height: 2px;
-        margin-left: 60px;
+        margin-left: 30px;
       }
 
       .img2{
-        border: 2px;
-        margin-top: 0px;
-        margin-left: 10px;
-        margin-right: 20px;
-        margin-bottom: 0px;
-        height: 280px;
-        width: 230px;
+        margin-left: 20px;
+        margin-right: 90px;
+        height: 290px;
+        width: 240px;
       }
 
       .fig2{
-        float: left;
+        float: right;
       }
 
       #p1{
@@ -159,7 +154,7 @@
       .espacoTextoBottons{
         background-color: black;
         width: 10px;
-        height: 150px;
+        height: 100px;
         margin-left: 60px;
       }
   
@@ -179,7 +174,6 @@
       a{
         color: white;
       }
-
       .btn-green{
         background: rgb(13, 194, 201);
         color:#fff;
@@ -196,6 +190,14 @@
         margin-right: 10px;
         }
       
+      .btn-blue{
+        background:rgb(4, 75, 230);
+        color:#fff;
+        box-shadow:0 5px 0 rgb(9, 16, 117);
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+      
       .btn-clearblue{
         background:rgb(8, 160, 248);
         color:#fff;
@@ -203,12 +205,3 @@
         margin-left: 10px;
         margin-right: 10px;
       }
-  
-      .btn-red{
-        background:rgb(139, 21, 21);
-        color:#fff;
-        box-shadow:0 5px 0 darkred;
-        margin-left: 10px;
-        margin-right: 10px;
-        }
-        

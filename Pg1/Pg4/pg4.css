@@ -59,7 +59,7 @@
       }
   
       h1{
-        color: rgb(212, 183, 14);
+        color:rgb(212, 183, 14);
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         margin-top: 80px;
         margin-left: 20px;
@@ -74,7 +74,7 @@
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         color: goldenrod;
         font-size: inherit;
-        margin-top: 30px;
+        margin-top: 20px;
         margin-left: 20px;
         margin-right: 20px;
         margin-bottom: 10px;
@@ -85,54 +85,82 @@
 
       img{
         text-align: bottom;
-        border: 2px;
-        margin-top: 5px;
-        margin-left: 10px;
-        margin-right: 50px;
-        margin-bottom: 0px;
         height: 230px;
-        width: 330px;
-
+        width: 400px;
+        margin-right: 2px;
+        margin-left: 2px;
       }
 
-      figcaption{
-        font-size: 12px;
-        margin-right: px;
-        margin-left: 5px;
-        margin-top: 0.5px;
-      }    
-
-      figure{
+      .fig1{
         float: right;
-        margin: 0px 10px 10px 15px;
+      }
+
+      .figcaption1{
+          font-size: 12px;
+          font-family: georgia;
+          margin-left: 50px;
+          margin-right: 20px;
       }
 
       .espacop1p2{
         background-color: black;
         width: 10px;
-        height: 2px;
+        height: 5px;
         margin-left: 60px;
       }
 
+      .listadragoes{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: goldenrod;
+        font-size: inherit;
+        margin-top: 20px;
+        margin-left: 2px;
+        margin-right: 2px;
+        margin-bottom: 20px;
+        flex-direction: row;
+      }
+
       .img2{
-        border: 2px;
-        margin-top: 0px;
-        margin-left: 10px;
-        margin-right: 20px;
-        margin-bottom: 0px;
-        height: 280px;
-        width: 230px;
+        margin-left: 0px;
+        margin-right: 0px;
+        height: 300px;
+        width: 150px;  
       }
 
       .fig2{
         float: left;
       }
 
+      .figcaption2{
+        font-size: 13px;
+        margin-right: 60px;
+        margin-left: 30px;
+        margin-top: 0.5px;
+      }    
+
+      .img3{
+        margin-left: 0px;
+        margin-right: 0px;
+        height: 200px;
+        width: 400px;
+      }
+
+      .fig3{
+        float: right;
+      }
+
+      .figcaption3{
+        font-size: 13px;
+        margin-right: 60px;
+        margin-left: 100px;
+        margin-top: 0.5px;
+      }    
+
       #p1{
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         color: goldenrod;
         font-size: inherit;
-        margin-top: 25px;
+        margin-top: 20px;
         margin-left: 20px;
         margin-right: 20px;
         flex-direction: row;
@@ -144,12 +172,18 @@
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         color: goldenrod;
         font-size: inherit;
-        margin-top: 25px;
+        margin-top: 20px;
         margin-left: 20px;
         margin-right: 20px;
         flex-direction: row;
         justify-content: space-around;
         align-content: space-aroun
+      }
+
+      .espacofinal{
+          height: 50px;
+          width: 200px;
+          background-color: black;
       }
   
       .btns{
@@ -196,14 +230,14 @@
         margin-right: 10px;
         }
       
-      .btn-clearblue{
-        background:rgb(8, 160, 248);
+      .btn-blue{
+        background:rgb(4, 75, 230);
         color:#fff;
-        box-shadow:0 5px 0 rgb(9, 103, 139);
+        box-shadow:0 5px 0 rgb(9, 16, 117);
         margin-left: 10px;
         margin-right: 10px;
       }
-  
+      
       .btn-red{
         background:rgb(139, 21, 21);
         color:#fff;
