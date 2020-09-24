@@ -172,9 +172,9 @@
       color: white;
     }
     .btn-green{
-      background: rgb(13, 194, 201);
+      background: rgb(120, 187, 19);
       color:#fff;
-      box-shadow:0 5px 0 rgb(39, 105, 107);
+      box-shadow:0 5px 0 rgb(5, 68, 5);
       margin-left: 200px;
       margin-right: 10px;
     }
@@ -204,9 +204,9 @@
     }
 
     .btn-red{
-      background:rgb(8, 160, 248);
+      background:rgb(139, 21, 21);
       color:#fff;
-      box-shadow:0 5px 0 rgb(9, 103, 139);
+      box-shadow:0 5px 0 darkred;
       margin-left: 10px;
       margin-right: 10px;
       }
