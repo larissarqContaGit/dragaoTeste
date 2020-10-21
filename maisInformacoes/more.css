@@ -1,0 +1,215 @@
+.fundo{
+    background-image: url(https://besthqwallpapers.com/img/original/32636/jakiro-4k-twin-headed-dragon-art-dragons.jpg);
+    background-size: 90% 70%;
+    position: fixed;
+    height: 185%;
+    width: 130%;
+    z-index: 2;
+    top: 0;  
+  }
+
+    .container2{
+        background-color: black;
+        opacity: 0.5;
+        height: 150%;
+        width: 90%;
+        margin-bottom: 0%;
+        margin-left: 5%;
+        margin-right: 5%;
+        z-index: 3;
+        position: fixed;
+        top: 0%;
+        flex-direction: column;
+      }
+  
+      .titulo{
+        color: rgb(212, 183, 14);
+        font-size: 120%;
+        font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        z-index: 4;
+        width: 80%;
+        height: 10%;
+        position: sticky;
+        top: 10%;
+        margin-left: 12%;
+        margin-right: 20%;
+        margin-bottom: 0%;
+        flex-direction: row;
+        z-index: 4;
+      }
+  
+      .container{
+        height: 100%;
+        width: 70%;
+        margin: 2%;
+        margin-top: 5%;
+        margin-bottom: 0%;
+        margin-left: 10%;
+        margin-right: 10%;
+        position: sticky;
+        z-index: 5;
+        top: 0%;
+        background-color: black;
+        flex-direction: column;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-content: space-around;
+        align-items: baseline;      
+      }
+  
+      h2{
+        color:rgb(212, 183, 14);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin-top: 80px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 50px;
+        flex-direction: row;
+        justify-content: space-around;
+        align-content: space-around;      
+      }
+  
+      p{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: goldenrod;
+        font-size: inherit;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 10px;
+        flex-direction: row;
+        justify-content: space-around;
+        align-content: space-around;    
+      }
+
+      img{
+        text-align: bottom;
+        border: 2px;
+        margin-top: 2px;
+        margin-left: 10px;
+        margin-right: 2px;
+        margin-bottom: 0px;
+        width: 310px;
+        height: 260px;
+      }
+
+      .espacop1p2{
+        background-color: black;
+        width: 10px;
+        height: 5px;
+        margin-left: 60px;
+      }
+
+      .img2{
+        border: 2px;
+        margin-top: 0px;
+        margin-left: 2px;
+        margin-right: 2px;
+        margin-bottom: 0px;
+        width: 350px;
+        height: 300px;
+      }
+
+      .fig2{
+        float: right;
+      }
+
+      figcaption{
+        font-size: 12px;
+        margin-right: px;
+        margin-left: 5px;
+        margin-top: 0.5px;
+      }
+      
+      
+
+      figure{
+        float: left;
+        margin: 0px 10px 10px 15px;
+      }
+
+      #p1{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: goldenrod;
+        font-size: inherit;
+        margin-top: 25px;
+        margin-left: 20px;
+        margin-right: 20px;
+        flex-direction: row;
+        justify-content: space-around;
+        align-content: space-around;      
+      }
+
+      #p2{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: goldenrod;
+        font-size: inherit;
+        margin-top: 25px;
+        margin-left: 20px;
+        margin-right: 20px;
+        flex-direction: row;
+        justify-content: space-around;
+        align-content: space-aroun
+      }
+  
+      .btns{
+        align-items: flex-end;
+      }
+
+      .espacoTextoBottons{
+        background-color: black;
+        width: 10px;
+        height: 150px;
+        margin-left: 60px;
+      }
+  
+      .btn{
+        font-family: arial;
+        font-size:14px;
+        font-weight:700;
+        text-transform: uppercase;
+        border:none;
+        padding:10px;
+        cursor: pointer;
+        display:inline-block;
+        text-decoration: none;  
+        margin-bottom: 30px;
+      }
+  
+      a{
+        color: white;
+      }
+      
+      .btn-orange{
+        background:orange;
+        color:#fff;
+        box-shadow:0 5px 0 #a16f03;
+        margin-left: 200px;
+        margin-right: 10px;
+        }
+      
+      .btn-blue{
+        background:rgb(4, 75, 230);
+        color:#fff;
+        box-shadow:0 5px 0 rgb(9, 16, 117);
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+      
+      .btn-clearblue{
+        background:rgb(8, 160, 248);
+        color:#fff;
+        box-shadow:0 5px 0 rgb(9, 103, 139);
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+  
+      .btn-red{
+        background:rgb(139, 21, 21);
+        color:#fff;
+        box-shadow:0 5px 0 darkred;
+        margin-left: 10px;
+        margin-right: 10px;
+        }
+        
