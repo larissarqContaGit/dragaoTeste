@@ -75,141 +75,39 @@
         color: goldenrod;
         font-size: inherit;
         margin-top: 20px;
-        margin-left: 20px;
+        margin-left: 400px;
         margin-right: 20px;
-        margin-bottom: 10px;
+        margin-bottom: 60px;
         flex-direction: row;
         justify-content: space-around;
         align-content: space-around;    
       }
-
-      img{
-        text-align: bottom;
-        border: 2px;
-        margin-top: 2px;
-        margin-left: 10px;
-        margin-right: 2px;
-        margin-bottom: 0px;
-        width: 310px;
-        height: 260px;
-      }
-
-      .espacop1p2{
-        background-color: black;
-        width: 10px;
-        height: 5px;
-        margin-left: 60px;
-      }
-
-      .img2{
-        border: 2px;
-        margin-top: 0px;
-        margin-left: 2px;
-        margin-right: 2px;
-        margin-bottom: 0px;
-        width: 350px;
-        height: 300px;
-      }
-
-      .fig2{
-        float: right;
-      }
-
-      figcaption{
-        font-size: 12px;
-        margin-right: px;
-        margin-left: 5px;
-        margin-top: 0.5px;
-      }
-      
-      
-
-      figure{
-        float: left;
-        margin: 0px 10px 10px 15px;
-      }
-
-      #p1{
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        color: goldenrod;
-        font-size: inherit;
-        margin-top: 25px;
-        margin-left: 20px;
-        margin-right: 20px;
-        flex-direction: row;
-        justify-content: space-around;
-        align-content: space-around;      
-      }
-
-      #p2{
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        color: goldenrod;
-        font-size: inherit;
-        margin-top: 25px;
-        margin-left: 20px;
-        margin-right: 20px;
-        flex-direction: row;
-        justify-content: space-around;
-        align-content: space-aroun
-      }
-  
-      .btns{
-        align-items: flex-end;
-      }
-
-      .espacoTextoBottons{
-        background-color: black;
-        width: 10px;
-        height: 150px;
-        margin-left: 60px;
-      }
-  
+     
       .btn{
         font-family: arial;
         font-size:14px;
         font-weight:700;
         text-transform: uppercase;
         border:none;
-        padding:10px;
+        padding: 8px;
         cursor: pointer;
         display:inline-block;
         text-decoration: none;  
         margin-bottom: 30px;
       }
-  
-      a{
-        color: white;
+
+      textarea{
+        background-color: rgb(51, 51, 51);
+        border-color: gold;
+        border-width: 2px;
+        color: yellow;
       }
-      
-      .btn-orange{
-        background:orange;
-        color:#fff;
-        box-shadow:0 5px 0 #a16f03;
-        margin-left: 200px;
-        margin-right: 10px;
-        }
-      
-      .btn-blue{
-        background:rgb(4, 75, 230);
-        color:#fff;
-        box-shadow:0 5px 0 rgb(9, 16, 117);
-        margin-left: 10px;
+
+      .btn-envia{
+        background: rgb(51, 51, 51);
+        box-shadow:2px 2px 2px #a16f03;
+        margin-left: 510px;
         margin-right: 10px;
       }
       
-      .btn-clearblue{
-        background:rgb(8, 160, 248);
-        color:#fff;
-        box-shadow:0 5px 0 rgb(9, 103, 139);
-        margin-left: 10px;
-        margin-right: 10px;
-      }
-  
-      .btn-red{
-        background:rgb(139, 21, 21);
-        color:#fff;
-        box-shadow:0 5px 0 darkred;
-        margin-left: 10px;
-        margin-right: 10px;
-        }
         
