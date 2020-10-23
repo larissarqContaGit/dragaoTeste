@@ -9,6 +9,11 @@
 </head>
 
 <body>
+
+    <form action="http://formmail.kinghost.net/formmail.cgi" method="POST"> 
+        <input type="hidden" name="recipient" value="larissarqos17@gmail.com">  
+        <input type="hidden" name="redirect" value="http://127.0.0.1:5500/confirma/confirma.html"> 
+        
     <div class= "fundo"></div>
     <div class= "container2"></div>
     
@@ -17,9 +22,27 @@
 
                 <h2><i>Comentários</i></h2>
 
-                    <textarea name="comentarios" cols="80" rows="10">Gostou do conteúdo? Achou mais ou menos? Tem sugestões? Então comenta aí e envia pra gente!</textarea>
-                    <p></p>
-                    <button class="btn btn-envia" href="#"><a style = "color: yellow" href="confirma/confirma.html">Enviar</a></button>
+
+                   <div id = "comentarios"> 
+                    <p>Nome:<br /> 
+                        <input type="text" size="30" name="nome"> 
+                        </p>   
+                        
+                        <p>
+                        E-mail:<br /> 
+                        <input type="text" size="30" name="replyto"> 
+                        </p>   
+                        
+                        <p> 
+                        Comentários:<br /> 
+                        <input type="text" size="35" name="Comentarios"> 
+                        </p>   
+                        
+                        <p> 
+                        <input type="submit" name="BTEnvia" value="Enviar"> 
+                        <input type="reset" name="BTApaga" value="Apagar"> </p> 
+                        </form>
+                            </div>
 
                     <p><a style= "color: gold" href="../index.html"><i>Voltar para a página principal</i></a></p>
             
